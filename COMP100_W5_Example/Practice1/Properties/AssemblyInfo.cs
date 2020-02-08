@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("COMP100-W2020-W03-Assignment2")]
+[assembly: AssemblyTitle("Practice1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("COMP100-W2020-W03-Assignment2")]
+[assembly: AssemblyProduct("Practice1")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("be3427c9-958f-4bc7-823c-ad310aea503b")]
+[assembly: Guid("78705ee9-49b6-4c27-a1c2-8aa6d03f6bc5")]
 
 // Version information for an assembly consists of the following four values:
 //
