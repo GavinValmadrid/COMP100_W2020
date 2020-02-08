@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+    
+    Basic loop structure
+
+*/
 namespace COMP100_W5_Example
 {
     class Practice1
