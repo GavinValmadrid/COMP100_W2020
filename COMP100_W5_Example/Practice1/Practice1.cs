@@ -17,13 +17,12 @@ namespace COMP100_W5_Example
         static void Main(string[] args)
         {
 
-            int sum = 2;
-            for (int counter = 0; counter < 5; counter++)
+         
+            for (int i = 0; i < 12; i+=2)
             {
-                Console.WriteLine(sum);
-                sum += 2;
+                Console.WriteLine(i);
             }
-            Console.WriteLine($"{sum}");
+            Console.ReadLine();
 
         }
     }

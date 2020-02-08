@@ -15,22 +15,21 @@ namespace Practice3
     {
         static void Main(string[] args)
         {
-            double sum = 0;
-            for (int counter = 0; counter < 5; counter++)
+            double gal, lit;
+            int counter;
+            counter = 0;
+            for (gal = 1; gal <= 10; gal++) // for loop to go to 10 gallons
             {
-                //Int32 gal = 1;
-                //gal = Convert.ToInt32(Console.ReadLine());
-
-                Console.WriteLine(sum);
-                sum += 3.785;
-
-                if (counter > 5)
-                {
-                    Console.WriteLine(sum);
-                }
+                lit = gal * 3.785;
+                Console.WriteLine(gal + " gallons is " + lit + " liters.");
+                counter++; // Increment by 1
             }
-            Console.WriteLine($"You have {sum}");
-
+            Console.ReadLine();
+            if (counter == 10)
+            {
+                Console.ReadLine();
+                counter = 0; 
+            }
         }
     }
 }
